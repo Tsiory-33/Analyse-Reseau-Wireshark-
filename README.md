@@ -34,8 +34,8 @@ En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le
 <br>![Application d'un filtre : TLS ](Images/005.jpg)
 <br>Ouverture d'un site sur le naviguateur : https://www.google.com
 <br>![Ouverture d'un site sur le naviguateur : https://www.google.com](Images/006.jpg)
-<br>Requete envoyé par le PC pour la demande du page
-<br>![Requete envoyé par le PC pour la demande du page](images/007.jpg)
+<br>Requête envoyé par le PC pour la demande du page
+<br>![Requête envoyé par le PC pour la demande du page](images/007.jpg)
 <br>Follow -> Flux TCP
 <br>![Follow -> Flux TCP](Images/008.jpg)
 <br>Follow -> Flux TLS
