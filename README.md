@@ -16,21 +16,21 @@ Lors de l'analyse d'une session HTTP, j'ai utilisé la fonction "Follow HTTP Str
 * Constat : L'intégralité du code HTML et des en-têtes (User-Agent, Host) est lisible en clair.
 * Risque : Une attaque de type Man-in-the-Middle (MitM) permettrait à un tiers de voler des identifiants ou des cookies de session.
 
-![Application d'un filtre : HTTP ](images/001.jpg)
-<br>![Ouverture d'un site sur le naviguateur : http://neverssl.com](images/002.jpg)
-<br>![Requete envoyé par le PC pour la demande du page](images/003.jpg)
-<br>![Follow -> Flux HTTP](images/004.jpg)
+![Application d'un filtre : HTTP ](Images/001.jpg)
+<br>![Ouverture d'un site sur le naviguateur : http://neverssl.com](Images/002.jpg)
+<br>![Requete envoyé par le PC pour la demande du page](Images/003.jpg)
+<br>![Follow -> Flux HTTP](Images/004.jpg)
 
 ### 2. Flux HTTPS avec TLS (Sécurisé)
 En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le protocole tls.
 * Constat : Les données sont encapsulées. Le contenu est totalement chiffré et illisible sans la clé de déchiffrement.
 * Résultat : Confidentialité et intégrité des données garanties par le protocole TLS.
 
-![Application d'un filtre : TLS ](images/005.jpg)
-<br>![Ouverture d'un site sur le naviguateur : https://www.google.com](images/006.jpg)
+![Application d'un filtre : TLS ](Images/005.jpg)
+<br>![Ouverture d'un site sur le naviguateur : https://www.google.com](Images/006.jpg)
 <br>![Requete envoyé par le PC pour la demande du page](images/007.jpg)
-<br>![Follow -> Flux TCP](images/008.jpg)
-<br>![Follow -> Flux TLS](images/009.jpg)
+<br>![Follow -> Flux TCP](Images/008.jpg)
+<br>![Follow -> Flux TLS](Images/009.jpg)
 
 ## 🚀 Conclusion
 Ce projet démontre que l'implémentation de TLS n'est pas seulement une recommandation, mais une nécessité absolue pour toute application manipulant des données sensibles. J'ai pu valider techniquement le processus d'encapsulation des données et l'importance du chiffrement dans la protection de la vie privée.
