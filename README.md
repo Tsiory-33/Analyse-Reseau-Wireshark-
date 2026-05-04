@@ -34,4 +34,3 @@ En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le
 
 ## 🚀 Conclusion
 Ce projet démontre que l'implémentation de TLS n'est pas seulement une recommandation, mais une nécessité absolue pour toute application manipulant des données sensibles. J'ai pu valider techniquement le processus d'encapsulation des données et l'importance du chiffrement dans la protection de la vie privée.
-entation de TLS n'est pas seulement une recommandation, mais une nécessité absolue pour toute application manipulant des données sensibles. J'ai pu valider techniquement le processus d'encapsulation des données et l'imp
