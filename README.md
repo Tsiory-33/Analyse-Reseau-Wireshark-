@@ -30,10 +30,15 @@ En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le
 * Constat : Les données sont encapsulées. Le contenu est totalement chiffré et illisible sans la clé de déchiffrement.
 * Résultat : Confidentialité et intégrité des données garanties par le protocole TLS.
 
-![Application d'un filtre : TLS ](Images/005.jpg)
+<br>Application d'un filtre : TLS
+<br>![Application d'un filtre : TLS ](Images/005.jpg)
+<br>Ouverture d'un site sur le naviguateur : https://www.google.com
 <br>![Ouverture d'un site sur le naviguateur : https://www.google.com](Images/006.jpg)
+<br>Requete envoyé par le PC pour la demande du page
 <br>![Requete envoyé par le PC pour la demande du page](images/007.jpg)
+<br>Follow -> Flux TCP
 <br>![Follow -> Flux TCP](Images/008.jpg)
+<br>Follow -> Flux TLS
 <br>![Follow -> Flux TLS](Images/009.jpg)
 
 ## 🚀 Conclusion
