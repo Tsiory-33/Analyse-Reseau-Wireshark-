@@ -16,10 +16,13 @@ Lors de l'analyse d'une session HTTP, j'ai utilisé la fonction "Follow HTTP Str
 * Constat : L'intégralité du code HTML et des en-têtes (User-Agent, Host) est lisible en clair.
 * Risque : Une attaque de type Man-in-the-Middle (MitM) permettrait à un tiers de voler des identifiants ou des cookies de session.
 
-<br>!Application d'un filtre : HTTP
+<br>Application d'un filtre : HTTP
 <br>![Application d'un filtre : HTTP ](Images/001.jpg)
+<br>Ouverture d'un site sur le naviguateur : http://neverssl.com
 <br>![Ouverture d'un site sur le naviguateur : http://neverssl.com](Images/002.jpg)
-<br>![Requete envoyé par le PC pour la demande du page](Images/003.jpg)
+<br>Requête envoyé par le PC pour la demande du page
+<br>![Requête envoyé par le PC pour la demande du page](Images/003.jpg)
+<br>Follow -> Flux HTTP
 <br>![Follow -> Flux HTTP](Images/004.jpg)
 
 ### 2. Flux HTTPS avec TLS (Sécurisé)
