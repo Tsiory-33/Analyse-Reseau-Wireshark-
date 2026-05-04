@@ -17,7 +17,7 @@ Lors de l'analyse d'une session HTTP, j'ai utilisé la fonction "Follow HTTP Str
 * Risque : Une attaque de type Man-in-the-Middle (MitM) permettrait à un tiers de voler des identifiants ou des cookies de session.
 
 ![Application d'un filtre : HTTP ](images/001.jpg)
-![Ouverture d'un site sur le naviguateur : http://neverssl.com](images/002.jpg)
+<br>![Ouverture d'un site sur le naviguateur : http://neverssl.com](images/002.jpg)
 ![Requete envoyé par le PC pour la demande du page](images/003.jpg)
 ![Follow -> Flux HTTP](images/004.jpg)
 
