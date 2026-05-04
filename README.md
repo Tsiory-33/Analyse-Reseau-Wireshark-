@@ -18,8 +18,8 @@ Lors de l'analyse d'une session HTTP, j'ai utilisé la fonction "Follow HTTP Str
 
 ![Application d'un filtre : HTTP ](images/001.jpg)
 <br>![Ouverture d'un site sur le naviguateur : http://neverssl.com](images/002.jpg)
-![Requete envoyé par le PC pour la demande du page](images/003.jpg)
-![Follow -> Flux HTTP](images/004.jpg)
+<br>![Requete envoyé par le PC pour la demande du page](images/003.jpg)
+<br>![Follow -> Flux HTTP](images/004.jpg)
 
 ### 2. Flux HTTPS avec TLS (Sécurisé)
 En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le protocole tls.
@@ -27,10 +27,10 @@ En répétant l'opération sur un site sécurisé, j'ai filtré le trafic via le
 * Résultat : Confidentialité et intégrité des données garanties par le protocole TLS.
 
 ![Application d'un filtre : TLS ](images/005.jpg)
-![Ouverture d'un site sur le naviguateur : https://www.google.com](images/006.jpg)
-![Requete envoyé par le PC pour la demande du page](images/007.jpg)
-![Follow -> Flux TCP](images/008.jpg)
-![Follow -> Flux TLS](images/009.jpg)
+<br>![Ouverture d'un site sur le naviguateur : https://www.google.com](images/006.jpg)
+<br>![Requete envoyé par le PC pour la demande du page](images/007.jpg)
+<br>![Follow -> Flux TCP](images/008.jpg)
+<br>![Follow -> Flux TLS](images/009.jpg)
 
 ## 🚀 Conclusion
 Ce projet démontre que l'implémentation de TLS n'est pas seulement une recommandation, mais une nécessité absolue pour toute application manipulant des données sensibles. J'ai pu valider techniquement le processus d'encapsulation des données et l'importance du chiffrement dans la protection de la vie privée.
