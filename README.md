@@ -6,7 +6,7 @@ L'objectif est de comparer le comportement des protocoles HTTP (en clair) et HTT
 
 ## 🛠️ Environnement Technique
 * OS : GNU/Linux Debian 12 (Bookworm)
-* Outil d'analyse : Wireshark 4.0.x
+* Outil d'analyse : Wireshark 
 * Cibles : neverssl.com (HTTP) et google.com (HTTPS)
 
 ## 🔍 Analyse Comparative
